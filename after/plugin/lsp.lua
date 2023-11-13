@@ -3,12 +3,12 @@ local lsp = require("lsp-zero")
 lsp.preset("recommended")
 
 lsp.ensure_installed({
-  'tsserver',
-  'rust_analyzer',
-  'intelephense',
-  'volar',
-  'tailwindcss',
-  'jsonls'
+  -- 'tsserver',
+  -- 'rust_analyzer',
+  -- 'intelephense',
+  -- 'volar',
+  -- 'tailwindcss',
+  -- 'jsonls'
 })
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
